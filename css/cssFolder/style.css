@@ -1,0 +1,220 @@
+body{
+	background-color: #ffffff;
+	color:black;
+	font-family: Arial,helvatica, sans-serif;
+    font-size:15px;
+    font-weight: normal;
+    /*same as avobe*/
+    font:normal 15px Arial,helvatica, sans-serif;
+    
+    line-height: 1.6em;
+    margin: 0;  
+}
+
+a{
+	text-decoration: :none;
+	color:#000;
+
+}
+
+a:hover{
+	color:red;
+}
+
+a:active{
+	color:green;
+}
+
+a:visited{
+	
+}
+
+
+.container{
+     width:80%;
+     margin:auto;
+}
+
+.button{
+	background-color: #555;
+	color:#ddd;
+	padding:10px 15px;
+	border:none
+}
+
+.button:hover{
+	background-color: green;
+	color:pink;
+}
+.box-1{
+	background-color:#333;
+	color:#fff;
+   
+	border-top:8px red solid;
+	border-right:8px red solid;
+	border-bottom:8px red solid;
+	border-left:8px red solid;
+    /*same as above*/
+	border:8px red solid ;
+   
+    /*with different border size
+	border-top:12px red solid;
+	border-right:8px red solid;
+	border-bottom:12px red solid;
+	border-left:8px red solid;
+    /*same as above
+	border:12px 8px 12px 8px red solid ;
+	*/
+	border-width:5px;
+	border-bottom-width: 10px;
+	/*
+	border-top-style:dotted;
+	border-bottom-style:dashed;
+	*/
+	border-style:double;
+
+	padding-top:10px ;
+	padding-right:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+    /*same as above*/
+	padding: 10px;
+
+
+	margin-top:20px;
+	margin-left:20px;
+	margin:20px 0;
+}
+.clr{
+	clear:both;
+}
+.box-1 h1{
+	font-family:Tahoma;
+	font-style:italic;
+	font-weight:800;
+	text-decoration: underline;
+	text-transform:uppercase;
+	letter-spacing:.5em;
+	word-spacing:1em;
+}
+
+.box-2 {
+	color:black;
+	border:4px dotted;
+	padding:10px;
+}
+.categories{
+	  border: 1px #ccc solid;
+	  margin: 20px;
+	  border-radius: 15px;
+
+}
+
+.categories h2{
+	text-align: center;
+
+}
+
+.categories ul{
+	padding: 10px;
+	padding-left:20px;
+	list-style: square;
+    list-style:none;
+
+}
+
+.categories li{
+	padding-bottom: 6px;
+	border-bottom:dotted 1px #444;
+	list-style-image:url("../../image/checkmar.png");
+
+}
+
+.my-form{
+	padding:20px;
+}
+
+.my-form label{
+	display:block;
+}
+
+.my-form input[type="text"], .my-form textarea {
+	padding:8px;
+	width:100%;
+}
+/*
+.my-form input[type="submit"]{
+	background-color: #555;
+	color:#ddd;
+	padding:10px 15px;
+	border:none; 
+}
+ */
+
+ .block{
+ 	float: left;
+ 	width:33.3%;
+ 	border:1px solid #ccc;
+ 	padding:10px;
+ 	box-sizing: border-box;
+
+ }
+
+#main-block{
+	float: left;
+	width:70%;
+	box-sizing: border-box;
+}
+
+#sidebar{
+	float:right;
+	width:30%;
+	background-color: #333;
+	color:#fff;
+	padding:15px;
+	box-sizing: border-box;
+}
+.p-box{
+	width:800px;
+	height:500px;
+	border:2px solid #000 ;
+	margin-top: 40px;
+	position: relative;
+}
+
+.p-box h1{
+	position: absolute;
+	top:40px;
+
+
+}
+
+.p-box h2{
+	position: absolute;
+	bottom: 40px;
+	right:100px;
+	background-image:url("../../image/images.png");
+	
+
+}
+
+.fix-me{
+	position: fixed;
+	top:100px;
+}
+
+.my-list li:first-child{
+	background: red;
+
+}
+
+.my-list li:last-child{
+	background:blue;
+}
+.my-list li:nth-child(5){
+	background: pink;
+}
+
+.my-list li:nth-child(even){
+	background: gray;
+}
