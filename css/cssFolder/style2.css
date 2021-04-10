@@ -3,6 +3,7 @@ body{
 	margin:5%;
     /* same as above */
 	background:rgba(90,50,100,0.4) url("../image/bag.jpg") no-repeat;
+
 	/*
 	background-image: url("../image/emoji3.png");
 	background-position: center right;
@@ -68,7 +69,8 @@ h1{
 }  
 
 .div1{
-   
+   background-image: url("../image/gif-2.gif");
+background-position: top right;
    
 }
 .box2{
@@ -93,4 +95,50 @@ h1{
     font-size:2vw;
     background-color: black;
 
+}
+
+.box3{
+	border:4px  yellow;
+	border-radius:15px;
+	border-style:double;
+	background-color: white;
+}
+.box3 a:link{
+	color:red;
+}
+
+.box3 a:visited{
+	color:green;
+}
+
+.box3 a:hover{
+	color:hotpink;
+}
+
+.box3 a:active{
+	color:blue;
+}
+.ul-1{
+	list-style-type:circle;
+	list-style-position:outside;
+	background:#9999dd;
+	padding:20px;
+
+}
+
+.ul-1 li{
+	background:#3399ff;
+	padding:5px;
+	margin-left:10px;
+}
+
+.ol-1{
+	list-style-type:upper-roman;
+	background:#ff9999;
+	padding:20px;
+}
+.ol-1 li{
+	background:#cce5ff;
+	padding:5px;
+	margin-left:30px;
 }
