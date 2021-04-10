@@ -28,11 +28,15 @@ body{
 
 #navbar ul{
 	padding: 0;
-	list-style: none;
+	list-style-type: none;
+	overflow:hidden;
+
 }
 
 #navbar li{
-	display: inline;;
+	display: inline;
+	float:left;
+
 
 }
 
@@ -40,8 +44,19 @@ body{
 	color:#fff;
 	text-decoration: none;
 	font-size:19px;
-	padding-right:16px;
+	padding: 14px 16px;
+	display:inline-block;
+	text-align:center;
 
+
+}
+
+#navbar a:hover{
+	background-color:green;
+}
+
+#navbar a:active{
+	background-color:red;
 }
 
 #showcase{
@@ -53,7 +68,7 @@ body{
 }
 
 #showcase h1{
-	color:#fff;
+	color:#fff; 
 	font-size: 50px;
 	line-height: 1.6em;
 	padding-top: 30px;
