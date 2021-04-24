@@ -1,0 +1,125 @@
+body{
+	background-color:#4f4f4f;
+	color:black;
+	font-family: vardana;
+	font-size: 20px;
+	margin-right:0;
+	line-height: 1.6em;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+    overflow: hidden;
+}
+
+#main-header{
+	background-color:coral;
+	text-align: center;
+	color:blue;
+
+}
+
+.navbar{
+	background-color:black;
+	color:#fff;
+}
+
+.navbar ul{
+	list-style-type: none;
+	list-style-type: none;
+	overflow: hidden;
+	padding:0;
+
+}
+
+.navbar li{
+	float:right;
+	display:inline;
+}
+
+.navbar a{
+	color:#fff;
+	font-size: 20px;
+	padding:15px 15px;
+	text-decoration: none;
+	text-align:center;
+	display:inline-block;
+
+}
+.navbar a:active{
+       background-color:blue;
+}
+
+.navbar a:hover{
+	background-color: green;
+}
+
+
+#show{
+	background-image:url("../images/bIP.jpg");
+	background-position:0;
+	
+	text-align:center;
+	min-height:300px;
+	margin-bottom: 20px;
+
+
+}
+
+#show h1{
+	color:green;
+	line-height:1.6em;
+	font-family: arial;
+	font-size:30px;
+	box-sizing: border-box;
+	padding: 30px;
+
+}
+
+#main{
+  float:left;
+  	padding:30px;
+  	width:70%;
+  	box-sizing: border-box;
+  	background:#11ddaa;
+}
+
+#sidebar{
+	float:right;
+	width:30%;
+	padding: 10px;
+	background:#ff44dd;
+	box-sizing: border-box;
+	text-align: center;
+    
+}
+
+.block{
+	float:left;
+	width:33.3%;
+	border:1px solid black;
+	padding:10px;
+}
+
+#main-footer{
+	background:gray;
+	color:white;
+	padding:20px;
+	text-align:center;
+	margin-top:50px;
+}
+
+
+@media(max-width: 600px){
+	#main{
+		width:100%;
+		float:none;
+	}
+
+	#sidebar{
+		width:100%;
+		float:none;
+	}
+}
+  
