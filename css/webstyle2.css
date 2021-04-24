@@ -1,0 +1,40 @@
+body{
+    background:#deb887;
+    
+}
+
+.header{
+    position:fixed;
+    top:0;
+    width:100%;
+}
+
+.title{
+    color: red !important;
+    text-align: center;
+    text-shadow: 4px 2px black;
+    font-weight: bold;
+    font-size: 40px;
+    background:green;
+    padding:10px 0;
+    margin-top: 0;
+   
+}
+#showcase {
+    background: silver;
+    width:100%;
+    margin-top: 70px;
+}
+.container{
+	margin:auto;
+	overflow: hidden;
+}
+
+#showcase p{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding:10px 0;
+    word-spacing: .8em;
+}
+
